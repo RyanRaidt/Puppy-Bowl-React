@@ -10,7 +10,7 @@ const NewPlayerForm = ({ addPlayer }) => {
     owner: "",
   });
 
-  const navigate = useNavigate(); // Allows programmatic navigation
+  const navigate = useNavigate(); 
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
